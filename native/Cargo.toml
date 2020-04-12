@@ -1,0 +1,21 @@
+[package]
+name = "node-neon-usdt"
+version = "1.0.0"
+authors = ["Anton Whalley <anton@venshare.com>"]
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "node_neon_usdt"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.4.0"
+
+[dependencies]
+neon = "0.4.0"
+
+[dependencies.probe]
+git = "https://github.com/cuviper/rust-libprobe.git"

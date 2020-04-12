@@ -1,0 +1,18 @@
+{
+  "name": "node-neon-usdt",
+  "version": "1.0.0",
+  "description": "A USDT probe in neon and node",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/No9/node-neon-usdt.git"
+  },
+  "author": "Anton Whalley <anton@venshare.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.4.0"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
