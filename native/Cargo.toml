@@ -15,7 +15,7 @@ crate-type = ["cdylib"]
 neon-build = "0.4.0"
 
 [dependencies]
-neon = "0.4.0"
+neon = "0.10.1"
 
 [dependencies.probe]
 git = "https://github.com/cuviper/rust-libprobe.git"
